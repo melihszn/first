@@ -3,11 +3,10 @@ echo "<br>"; echo "<hr>";
 $kadı="Melih";
 $ksifre=123456;
 
-if ($kadı==$_POST['kullanıcı_ad'] and $_POST['kullanıcı_sifre']==$ksifre) {
-    echo "Giriş Başarılı";
-} else {
-    echo "Giriş Başarısız";
-}
+
+if(@$_GET['status'] == '0')
+echo "Bilgileri hatalı girdiniz!";
+
 ?>
 
 <h3>Kullanıcı Girişi</h3>
