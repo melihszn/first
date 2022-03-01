@@ -68,7 +68,7 @@ echo "<hr>";
 ?>
 
 <?php
-echo "<a href='deneme.php'> lınk </a>";
+echo "<a href='deneme.php'> lınk </a>"; echo "<br>";
 echo date("d-m-y h:i:s"); echo "<br>";
 ?>
 
