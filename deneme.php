@@ -17,6 +17,6 @@ for($i = 0; $i < 10; $i++){
 
 <form action="getpost.php" method="POST">
     Ad <input type="text" name="ad" placeholder="Adınızı Girin">
-    Soyad <input type="text" name="soyad" placeholder="SoyAdınızı Girin">
+    Soyad <input type="password" name="soyad" placeholder="SoyAdınızı Girin">
     <input type="submit" value="Formu Gönder" name="" >
 </form> 
