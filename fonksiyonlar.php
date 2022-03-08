@@ -5,8 +5,6 @@ function yaz() {
 }
 
 
-
-
 ?>
 
 <?php

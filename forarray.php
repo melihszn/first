@@ -25,4 +25,24 @@ foreach ($dizi as $meyve) {
     echo $meyve; echo " ";    
 }
 
-topla(5,5);
+topla(5,5); print "<br>";
+yaz();
+
+$nums =[2,7,11,15];
+$target = 9;
+
+function twoSum($nums, $target) {
+    
+    for ($i=0; $i < count($nums) ; $i++) { 
+
+        for ($j = $i+1; $j < count($nums) ; $j++) { 
+            $r = $nums[$i] + $nums[$j];
+
+            if( $r == $target) return ([$i,$j]);
+        }
+
+    }
+    return "cevap yok";
+}
+echo "<br>";
+echo twoSum($nums, 22);
