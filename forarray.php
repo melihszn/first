@@ -1,4 +1,5 @@
 <?php
+include('fonksiyonlar.php');
 
 $dizi=array("elma","armut","kavun","karpuz","üzüm");
 
@@ -23,3 +24,5 @@ echo "<hr>";
 foreach ($dizi as $meyve) {
     echo $meyve; echo " ";    
 }
+
+topla(5,5);
